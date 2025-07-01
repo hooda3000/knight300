@@ -26,7 +26,8 @@ jobs:
       run: |
         cd backend
         pyinstaller --noconfirm --onefile main.py
-        move dist\\main.exe ..\\frontend\\backend\\Knight300_Backend.exe
+        mkdir ../frontend/backend
+        move dist\main.exe ..\frontend\backend\Knight300_Backend.exe
         cd ..
 
     - name: Setup Node.js
