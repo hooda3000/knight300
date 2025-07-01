@@ -1,0 +1,6 @@
+transformers
+torch
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
