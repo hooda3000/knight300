@@ -3,6 +3,7 @@ name: Build Knight300 Portable EXE
 on:
   push:
     branches: [ main ]
+    tags: [ v* ]
 
 jobs:
   build:
